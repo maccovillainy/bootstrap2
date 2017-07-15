@@ -432,6 +432,40 @@ header .navbar-default .navbar-nav > li:first-child > a {
   text-transform: uppercase;
 }
 
+.bottom-slider {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.elastislide-wrapper {
+  box-shadow: none;
+}
+
+/*footer*/
+.footer-menu {
+  background-color: #282828;
+  color: #b7b7b7;
+  padding: 30px 0;
+}
+.footer-menu h5 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer-menu a {
+  color: #969696;
+  padding: 2px 0;
+  display: inline-block;
+}
+.footer-menu img {
+  margin-bottom: 3px;
+}
+.footer-copy {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
 @media screen and (min-width: 1200px) {
   .slider .navbar-form {
     position: initial;
@@ -455,6 +489,9 @@ header .navbar-default .navbar-nav > li:first-child > a {
   .search {
     display: initial;
     cursor: pointer;
+  }
+  .footer-menu img{
+    display: block;
   }
 }
 
@@ -497,6 +534,13 @@ header .navbar-default .navbar-nav > li:first-child > a {
   .sidebar .info {
     margin-top: 30px;
     max-width: initial;
+  }
+  .footer-menu img{
+    display: inline-block;
+  }
+  .footer-copy .col-md-8 {
+    text-align: left;
+    margin-top: 20px;
   }
 }
 
